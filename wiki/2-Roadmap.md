@@ -1,10 +1,21 @@
-# 2. Roadmap
+# Technical Roadmap & Milestones
 
-- v0.1 — Sharpness + exposure scores with XMP export.
-- v0.2 — Duplicate and burst grouping.
-- v0.3 — Eyes-open and face-quality scoring.
-- v0.4 — Desktop review UI with genre presets.
+The development of **AI Photo Culling & Best Shot Selector** is organized into four strategic milestones:
 
-## Notes for contributors / LLM agents
-- Never modify or re-encode source files: write ratings to XMP sidecars only.
-- Test against a hand-labelled set of the owner's own shoots.
+## Milestone Breakdown
+
+### Milestone v0.1 — Foundation & Core Scaffolding
+* **Objective:** Laplacian variance sharpness scoring and EXIF burst grouping engine.
+* **Deliverables:** Core architecture, basic pipeline, standard documentation, and CI integration.
+
+### Milestone v0.2 — Feature Expansion & Deep Pipelines
+* **Objective:** Facial analysis: eye blink detection, smile score, and focus assessment.
+* **Deliverables:** Multimodal ingestion, expanded domain models, and automated test suites.
+
+### Milestone v0.3 — Intelligence, Refinement & Safety
+* **Objective:** Duplicate clustering and smart best-shot recommendation ranking.
+* **Deliverables:** Advanced evaluation logic, heuristic calibration, and performance profiling.
+
+### Milestone v0.4 — Production Readiness & Ecosystem Integration
+* **Objective:** Lightroom XMP sidecar rating export (1-5 stars) and color labels.
+* **Deliverables:** Client UI / CLI tooling, cloud deployment manifests, and partner integrations.
